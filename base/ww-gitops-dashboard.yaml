@@ -39,6 +39,6 @@ spec:
       nodePort: 30091
     adminUser:
       create: true
-      passwordHash: $2a$10$KC8Cv5ReNOmYQmkqKHsAfef09EF66QxR9Mzk281A/mRDAIlFDRcl2
+      passwordHash: $2a$10$z9h7QtmBxcpv8LbzzqNgdexkadZQhohMpcN3tEhk1f3nx6lpf4rEq
       username: admin
 
