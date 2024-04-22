@@ -3,13 +3,13 @@
 apiVersion: vmoperator.vmware.com/v1alpha1
 kind: VirtualMachine
 metadata:
-  name: windows-11-small
+  name: windows-12-small
   namespace: default
   annotations:
     vmoperator.vmware.com/image-supported-check: disable
 spec:
   className: best-effort-small
-  imageName: 192.168.101.2:8000/tinywin.ova
+  imageName: 192.168.101.2:8000/win-2012-template.ova
   powerState: poweredOn
   vmMetadata:
     secretName: sysprep-bootstrap-data
