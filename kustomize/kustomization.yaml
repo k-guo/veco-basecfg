@@ -1,13 +1,13 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - ../base/client.yaml
+  - ../base/k8s/client.yaml
   - ../base/infra/esx-ntp-config.yaml
-  - ../base/k8s-dashboard.yaml
-  - ../base/kubeseal.yaml
+  - ../base/k8s/k8s-dashboard.yaml
+  - ../base/k8s/kubeseal.yaml
   - ../base/vm/linux-ubuntu-vm.yaml
-  - ../base/podinfo-kustomization.yaml
-  - ../base/podinfo-source.yaml
-  - ../base/web-server.yaml
-  - ../base/ww-gitops-dashboard.yaml
+  - ../base/k8s/podinfo-kustomization.yaml
+  - ../base/k8s/podinfo-source.yaml
+  - ../base/k8s/web-server.yaml
+  - ../base/k8s/ww-gitops-dashboard.yaml
   - ../base/vm/windows-vm.yaml
