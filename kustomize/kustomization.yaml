@@ -11,8 +11,8 @@ resources:
   - ../base/k8s/web-server.yaml
   - ../base/k8s/ww-gitops-dashboard.yaml
   - ../base/vm/windows-vm.yaml
-  - ../monitoring/10-ns.yaml
-  - ../monitoring/20-pv.yaml
-  - ../monitoring/30-prometheus.yaml
-  - ../monitoring/40-grafana-cm.yaml
-  - ../monitoring/50-grafana.yaml
+  - ../base/monitoring/10-ns.yaml
+  - ../base/monitoring/20-pv.yaml
+  - ../base/monitoring/30-prometheus.yaml
+  - ../base/monitoring/40-grafana-cm.yaml
+  - ../base/monitoring/50-grafana.yaml
