@@ -16,4 +16,3 @@ resources:
   - ../base/monitoring/30-prometheus.yaml
   - ../base/monitoring/40-grafana-cm.yaml
   - ../base/monitoring/50-grafana.yaml
-  - ../base/monitoring/prometheus_grafana.yaml
